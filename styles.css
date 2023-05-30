@@ -15,24 +15,45 @@
   justify-content: space-between;
   width: 1216px;
   height: 72px;
+  margin-top: 30px;
 }
 
-.links-bar {
+.hero-info {
+  width: 1216px;
+  height: 594px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 128px;
 }
 
 .customized-title {
   color: #212121;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
 }
+
+.hero-info-subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 62%;
+  margin-top: 20px;
+}
+
 .first-name {
   color: #1e1e1e;
   font-size: 24px;
   letter-spacing: -0.015rem;
+  font-weight: bold;
 }
 
 .links {
   font-size: 16px;
   color: #1e1e1e;
   letter-spacing: -0.015rem;
+  margin-right: 16px;
 }
 
 .contact-button {
@@ -45,4 +66,13 @@
   letter-spacing: 0.16rem;
   font-weight: bold;
   background-color: #3542fc;
+}
+
+.hero-img {
+  height: 594px;
+  width: 542px;
+  border-radius: 40px;
+  border-color: #3542fc;
+  border-width: 4px;
+  border-style: solid;
 }
