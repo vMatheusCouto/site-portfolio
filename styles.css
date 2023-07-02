@@ -4,6 +4,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fefefe;
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
@@ -41,6 +43,18 @@ h5 {
   margin: 0px;
 }
 
+ul {
+  width: 90%;
+  padding-top: 12px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+  font-weight: 500;
+}
+
 .social-media-buttons {
   display: flex;
   flex-direction: row;
@@ -55,7 +69,7 @@ h5 {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 98vw;
+  width: 100%;
 }
 
 .navigation-bar {
@@ -127,7 +141,7 @@ h5 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 98vw;
+  width: 100%;
   padding-top: 190px;
   padding-bottom: 64px;
 }
@@ -175,4 +189,14 @@ h2.azul {
   width: 40px;
   height: 40px;
   filter: invert(100%);
+}
+
+.container-subtitle {
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  margin: 0px;
+  font-family: "Open-Sans", sans-serif;
+  margin-top: 10px;
+  max-width: 70%;
 }
