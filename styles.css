@@ -163,6 +163,8 @@ li {
 
 h2.azul {
   color: #3542fc;
+  font-size: 64px;
+  font-weight: 700;
 }
 
 .column {
@@ -243,7 +245,7 @@ h2.azul {
   align-items: center;
   justify-content: center;
   width: 384px;
-  height: 300px;
+  height: 320px;
   border-width: 2px;
   border-color: #d9d9d9;
   border-style: solid;
@@ -278,4 +280,78 @@ h2.azul {
   align-items: center;
   width: 64px;
   cursor: pointer;
+}
+
+.section-experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+  padding-top: 64px;
+  width: 100%;
+  text-align: left;
+}
+
+.section-experiences-card {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  margin-top: 12px;
+  padding: 24px;
+}
+
+h2.azul-2 {
+  color: #3542fc;
+  margin-bottom: 36px;
+  text-align: left;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h2.h2-2 {
+  text-align: left;
+}
+
+.section-experiences-card-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  margin-right: 12px;
+}
+
+.section-experiences-card-title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 6px;
+}
+
+.section-experiences-card-subtitle {
+  color: var(--text, #1e1e1e);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 6px;
+}
+
+.section-experiences-card-text {
+  color: var(--text, #1e1e1e);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.experiences-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
