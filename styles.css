@@ -355,3 +355,44 @@ h2.h2-2 {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+  margin-bottom: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.contact-text {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-icon {
+  width: 19.5px;
+  height: 19.5px;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.contact-div-geral {
+  display: flex;
+  margin-top: 0px;
+  width: 414px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
