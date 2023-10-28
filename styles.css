@@ -6,6 +6,7 @@ body {
   background-color: #fefefe;
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -317,6 +318,16 @@ h2.h2-2 {
   text-align: left;
 }
 
+footer {
+  display: flex;
+  width: 100vw;
+  height: 156px;
+  background-color: #d9d9d9;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
 .section-experiences-card-img {
   width: 48px;
   height: 48px;
@@ -378,21 +389,49 @@ h2.h2-2 {
 .contact-icon {
   width: 19.5px;
   height: 19.5px;
+  margin-right: 12px;
 }
 
 .contact-div {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  height: 40px;
 }
 
 .contact-div-geral {
-  display: flex;
   margin-top: 0px;
   width: 414px;
   padding: 10px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  width: 1216px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  color: #1e1e1e;
+  font-size: 28px;
+  letter-spacing: -0.015rem;
+  font-weight: bold;
+}
+
+.footer-social-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
 }
