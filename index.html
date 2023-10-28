@@ -4,6 +4,7 @@
   <head>
     <head>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
       <title>Matheus Couto</title>
     </head>
   </head>
@@ -14,11 +15,11 @@
           <div class="navigation-bar">
             <h2 class="first-name">Matheus Couto</h2>
             <div>
-              <a class="links">Habilidades</a>
-              <a class="links">Portfólio</a>
-              <a class="links">Experiência</a>
+              <a onclick="onClickScrollTo('section-abilities')" class="links">Habilidades</a>
+              <a onclick="onClickScrollTo('section-portfolio')" class="links">Portfólio</a>
+              <a onclick="onClickScrollTo('section-experiences')" class="links">Experiência</a>
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')" >CONTATO</button>
           </div>
           <div class="hero-info">
             <div>
@@ -51,7 +52,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades que</h2>
           <h2 class="azul">domino.</h2>
     
@@ -95,7 +96,7 @@
               </ul>
           </div>
         </section>
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <h2>Porftólio de</h2>
           <h2 class="azul">projetos.</h2>
           <div class="section-portfolio-grid">
@@ -134,7 +135,7 @@
           </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <div>
             <h2 class="h2-2">Experiências</h2>
             <h2 class="azul-2">profissionais.</h2>
@@ -155,7 +156,7 @@
               <p class="section-experiences-card-text">Desenvolvedor web responsável por criar aplicações de larga escala para os clientes utilizando principalmente a tecnogia React.js.</p>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <div>
             <h2 class="h2-2">Entre em</h2>
             <h2 class="azul-2">contato.</h2>
