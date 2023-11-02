@@ -1,3 +1,11 @@
-## EM DESENVOLVIMENTO
+# Introduction
 
-# Primeiro projeto: site para portfólio
+This is a project do start the studies about HTML, CSS and JS.
+The main goal is create a website with my professional information.
+
+## Main concepts applied
+
+- Flexbox
+- DOM manipulation
+- Events
+- CSS Media Query
