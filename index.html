@@ -4,6 +4,7 @@
   <head>
     <head>
       <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="mobile.css" />
       <script src="index.js"></script>
       <title>Matheus Couto</title>
     </head>
@@ -22,7 +23,7 @@
             <button onclick="onClickScrollTo('section-contact')" >CONTATO</button>
           </div>
           <div class="hero-info">
-            <div>
+            <div class="hero-info-text-container">
               <h1 class="customized-title">
                 Olá, muito prazer!<br />
                 Sou Matheus Couto.
@@ -47,9 +48,21 @@
                 </a>
               </div>
             </div>
-            <div>
               <img src="perfil.png" alt="Perfil Matheus Couto" class="hero-img" />
-            </div>
+              <div class="social-media-buttons-2">
+                <a>
+                  <img alt="Github" src="icons/github.png" class="social-icons" onclick="onClickLink('')"/>
+                </a>
+                <a>
+                  <img alt="Linkedin" src="icons/linkedin.png" class="social-icons" onclick="onClickLink('')"/>
+                </a>
+                <a>
+                  <img alt="YouTube" src="icons/youtube.png" class="social-icons" onclick="onClickLink('')"/>
+                </a>
+                <a>
+                  <img alt="Instagram" src="icons/instagram.png" class="social-icons" onclick="onClickLink('')"/>
+                </a>
+              </div>
           </div>
         </section>
         <section class="section-abilities" id="section-abilities">
