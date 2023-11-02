@@ -1,5 +1,10 @@
 @media only screen and (max-device-width: 450px) {
-
+    h2 {
+      text-align: center;
+    }
+    h5 {
+      font-size: 32px;
+    }
     button {
       height: 64px;
       font-size: 20px;
@@ -86,4 +91,53 @@
       justify-content: space-between;
       margin-top: 32px;
     }
-  }
+    .column {
+      height: 40vw;
+      width: 60vw;
+    }
+    .section-portfolio {
+      align-items: center;
+      padding-top: 0;
+    }
+    .section-abilities {
+      margin-top: 30vw;
+      padding-top: 0;
+    }
+    .card-subtitle {
+      font-size: 24px;
+    }
+    .card-image {
+      height: auto;
+      width: 30vw;
+    }
+    .section-portfolio-card {
+      height: 50vw;
+      width: 60vw;
+    }
+    .card-icons {
+      width: 32px;
+      height: 32px;
+    }
+    .card-icons-div {
+      width: 128px;
+    }
+    .contact-text {
+      font-size: 32px;
+    }
+    h6.contact-text {
+      margin-top: 2vw;
+    }
+    .contact-div {
+      height: 8vw;
+    }
+    .contact-icon {
+      height: 48px;
+      width: 48px;
+    }
+    .footer-social-icons-container {
+      margin-right: 60px;
+    }
+    .footer-text {
+      margin-left: 60px;
+    }
+  } 
